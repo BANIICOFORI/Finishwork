@@ -24,7 +24,6 @@ import Estemates from './Pages/Estemates';
 function App() {
   return (
  <>
- {/* <Header/> */}
    <BrowserRouter>
       <Routes>
       {/* <Route path="/" element={<Login/>}></Route> */}
