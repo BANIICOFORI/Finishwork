@@ -5,14 +5,14 @@ import "../Pages/Homepage.css";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { BsFacebook } from "react-icons/bs";
 import { FaWhatsappSquare } from "react-icons/fa";
-import Header from "./header/Header";
+import HeaderUser from "./headerUser/HeaderUser";
 import Footer from "./footer/Footer";
 
 function Homepage() {
   return (
     <>
       <div style={{ marginBottom: "10px" }}>
-        <Header />
+        <HeaderUser />
       </div>
 
       <div

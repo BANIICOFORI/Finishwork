@@ -2,11 +2,7 @@
 import React from "react";
 import Footer from "../Components/footer/Footer";
 import Header from "../Components/header/Header";
-import { FaSquareXTwitter } from "react-icons/fa6";
-import { BsFacebook } from "react-icons/bs";
-import { FaWhatsappSquare } from "react-icons/fa";
-import Customers from "./Customers";
-import { FaUsersLine } from "react-icons/fa";
+
 import MainBodyInner from "./MainBodyInner"
 
 const MainBody = () => {
@@ -127,7 +123,7 @@ const MainBody = () => {
                       </div>
                       <div className="progress progress-mini">
                         <div
-                          style={{ width: " 60%;" }}
+                          style={{ width: " 60%;"}}
                           className="progress-bar bg-purple"
                         ></div>
                       </div>

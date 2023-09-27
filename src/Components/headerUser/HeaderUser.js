@@ -51,34 +51,13 @@ const Header = () => {
                     
                 </li>
                 <li>
-                    <NavLink to="/home" className={activeLink}>
+                    {/* <NavLink to="/" className={activeLink}>
                     Dashboard
-                    </NavLink>
+                    </NavLink> */}
                 </li>
             </ul>
             <div className={styles["header-right"]}>
                 <span className={styles.links}>
-                    <NavLink to={"/customersList"}
-                    className={activeLink}>
-                    Customers
-                    </NavLink>
-                    <NavLink to={"/Items"} 
-                    className={activeLink}>
-                        Items
-                    </NavLink>
-                    <NavLink to={"/estemate"} 
-                    className={activeLink}>
-                      Estemates
-                    </NavLink>
-                    <NavLink to={"/Invoice"} 
-                    className={activeLink}>
-                      Invoices
-                    </NavLink>
-                    <NavLink to={"/payment"} 
-                    className={activeLink}>
-                     Payment
-                    </NavLink>
-                    
                     <NavLink to={"/"}
                     className={activeLink}>
                     Login

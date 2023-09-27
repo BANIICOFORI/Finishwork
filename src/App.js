@@ -16,6 +16,9 @@ import CreateCustomer from './Pages/CreateCustomer';
 import Create from "./Components/Create"
 import MainBody from './Pages/MainBody';
 import Estemates from './Pages/Estemates';
+import Invoice from "./Pages/Invoices";
+import Items from './Pages/Items';
+
 
 
 
@@ -26,17 +29,16 @@ function App() {
  <>
    <BrowserRouter>
       <Routes>
-      {/* <Route path="/" element={<Login/>}></Route> */}
       <Route path="/" element={<Login/>}></Route>
       <Route path="/home" element={<Home/>}></Route>
          <Route path="/register" element={<Register/>}></Route>
-        {/* <Route path="/home" element={<UserDashboard/>}></Route> */}
-        {/* <Route path="/dashboard" element={<Customers />}></Route> */}
         <Route path="/dashboard" element={<MainBody/>}></Route>
         <Route path="/customers" element={<Customers/>}></Route>
         <Route path="/customersList" element={<CustomersList />}></Route>
        <Route path="/createCustomer" element={<CreateCustomer/>}></Route>
-        {/*  <Route path="/updatecustomers" element={<UpdateCustomers/>}></Route>  */}
+       <Route path="/invoice" element={<Invoice/>}></Route>
+       <Route path="/items" element={<Items/>}></Route>
+       <Route path="/estemate" element={<Estemates/>}></Route>
       </Routes>
    </BrowserRouter>
    </>

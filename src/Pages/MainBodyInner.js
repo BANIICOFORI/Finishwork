@@ -1,12 +1,6 @@
 
 import React from "react";
-import Footer from "../Components/footer/Footer";
-import Header from "../Components/header/Header";
-import { FaSquareXTwitter } from "react-icons/fa6";
-import { BsFacebook } from "react-icons/bs";
-import { FaWhatsappSquare } from "react-icons/fa";
-import Customers from "./Customers";
-import { FaUsersLine } from "react-icons/fa";
+
 
 const MainBody = () => {
   return (
@@ -36,7 +30,7 @@ const MainBody = () => {
                                     <td>27-09-2023</td>
                                    
                                     <td>MELCOM GH</td>
-                                    <td>22,000.00</td>
+                                    <td>GH₵22,000.00</td>
                                     <td>14 days</td>
                                     <td>
                                         <button class="pd-setting">10 Days More</button>
@@ -47,7 +41,7 @@ const MainBody = () => {
                                 <td>27-09-2023</td>
                                    
                                    <td>MELCOM GH</td>
-                                   <td>22,000.00</td>
+                                   <td>GH₵22,000.00</td>
                                    <td>20 days</td>
                                     <td>
                                         <button class="ps-setting">5 days almost due</button>
@@ -57,7 +51,7 @@ const MainBody = () => {
                                  <td>27-09-2023</td>
                                    
                                    <td>MELCOM GH</td>
-                                   <td>22,000.00</td>
+                                   <td>GH₵22,000.00</td>
                                    <td>20 days</td>
                                     <td>
                                         <button class="ds-setting">0 days Due send mail</button>
